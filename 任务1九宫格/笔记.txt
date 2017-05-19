@@ -1,0 +1,26 @@
+
+1.HTML文件里开头的Doctype有什么作用
+ 浏览器多个标准模式，DOCTYPE声明让浏览器进入某一个模式。所以文档开头需要添加DOCTYPE文档，告诉浏览器利用哪个模式，DTD,如果没有声明会使用默认的DTD
+	
+2.如何理解盒模型及其content、padding、border、margin？
+	
+3.常见的inline元素、block元素、inline-block元素有哪些？它们之间有什么区别
+
+4.如何使用浏览器的F12调试页面？
+
+5.九宫格的布局你还能想到哪些办法实现？它们各自的优势劣势是什么？
+
+6.IDE是什么？它和文本编辑器相比有什么优缺点？
+
+7.加和不加meta的viewport有什么区别？
+
+
+个人所得：
+  最外围容器本身或者其父级是有一定的宽度跟高度的，最起码body本身有一定的宽度跟高度.
+  DIV默认继承父级100%,可以设定最大 或者最小宽度。
+  容器本身的margin padding都是基于父级元素来设定的，不管父级元素有没有设置定宽定高。
+
+	
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+ 
+ viewport设置，把移动设备的屏幕宽度设置为网站对应的布局宽度，所以PC端上面网站的宽度为1080,但是设备屏幕宽度为340,那么网页在设备上显示 宽度也是340,然后按照自己设置的百分比显示。
